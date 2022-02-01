@@ -152,8 +152,6 @@ namespace Coursello
             Console.WriteLine($"Standard Deviation: {CalculateStandardDeviation()}");
         }
 
-        //input state name and output states population
-        //--state X where X is one of the states or territories in the list, and the output is that state or territory’s population (2020 Census data).
         public void ExecuteSecondProblem(string stateOrTerritory)
         {
             Console.WriteLine($"Population of {stateOrTerritory}: {GetPopulation(stateOrTerritory)}");
